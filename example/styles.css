@@ -1,0 +1,31 @@
+.navbar-custom { 
+    font-size: 14px;
+    color: #FFF;
+    background-color: #000;
+    border: 0px;
+    border-radius: 0;
+}
+
+.tree-node li  {
+	cursor: pointer;
+}
+
+.tree-node li > span:hover {
+	font-weight: bold;
+}
+
+.tree-node li {
+    display: block;
+}
+.tree-node li:before {
+    content: "\e114";
+    font-family: 'Glyphicons Halflings';
+    font-size: 10px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+}
+
+.tree-node li.expanded:before {
+    content: "\e080";
+}
